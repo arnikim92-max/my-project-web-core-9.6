@@ -122,3 +122,4 @@ yarn deploy
 ```
 
 Read [this article](hhttps://dev.to/anitaparmar26/webpack-5-guide-for-beginners-314c).# my-project-web-core-9.6
+# my-project-web-core-9.6
