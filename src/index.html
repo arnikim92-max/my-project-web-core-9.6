@@ -1,16 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>CPS</title>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 5 starter </h3>
+    <div class="layout">
+      <aside>
+        <div class="side-bar">
+          <header>
+            <div class="left-side">
+              <!-- <img class="left-side" src="./images/burger.svg" alt="exit" /> -->
+              <img class="logo" src="./images/Group.svg" alt="logo" />
+            </div>
+            <div class="right-side">
+              <img class="right-side" src="./images/search.svg" alt="search" />
+            </div>
+          </header>
+          <nav>
+            <ul>
+              <div class="first-line">
+                <img src="./images/highlight.svg" alt="line" />
+                <li>Ремонт техники</li>
+              </div>
+              <div class="second-line">
+                <li>Услуги и сервисы</li>
+                <li>Корпоративным клиентам</li>
+                <li>Продавцам техники</li>
+                <li>Партнерам</li>
+                <li>Производители</li>
+                <li>Наши сервисные центры</li>
+                <li>Контакты</li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+        <footer>
+          <div class="connect">
+            <img src="./images/call.svg" alt="call" />
+            <img src="./images/chat.svg" alt="chat" />
+            <img src="./images/profile.svg" alt="profile" />
+          </div>
+          <div class="phone">
+            <ul>
+              <li>mail@cps.com</li>
+              <li>8 800 890 8900</li>
+              <li>RU EN CH</li>
+            </ul>
+          </div>
+        </footer>
+      </aside>
+    </div>
+    <main class="content">
+       <div class="write-side">
+        <img src="./images/burger.svg" alt="menu" />
+        <img class="tab" src="./images/divider.svg" alt="divider" />
+        <img src="./images/Group.svg" alt="Group" />
+      </div>
+
+      <div class="left-side">
+        <img class="tab" src="./images/call.svg" alt="call" />
+        <img class="tab" src="./images/chat.svg" alt="chat" />
+        <img class="tab" src="./images/profile.svg" alt="profile" />
+        <img src="./images/divider.svg" alt="divider" />
+
+        <!-- <div class="repair"> -->
+        <p class="desk">Оставить заявку</p>
+        <img class="repair__img" src="./images/repair.svg" alt="repair" />
+        <!-- </div> -->
+
+        <!-- <div class="checkstatus"> -->
+        <p class="desk">Статус ремонта</p>
+        <img
+          class="checkstatus__img"
+          src="./images/checkstatus.svg"
+          alt="checkstatus"
+        />
+        <!-- </div> -->
+      </div>
+    <!-- </header> -->
+
+    <div>
+      <div class="top-side">
+        <h1>
+          <img src="./images/highlight.svg" alt="highlight" />
+          Услуги и сервисы
+        </h1>
+        <div class="desk-icon">
+          <div class="desk-icon__1">
+            <p class="desk">Оставить заявку</p>
+            <img class="repair__img" src="./images/repair.svg" alt="repair" />
+          </div>
+          <div class="desk-icon__2">
+            <p class="desk">Статус ремонта</p>
+            <img
+              class="checkstatus__img"
+              src="./images/checkstatus.svg"
+              alt="checkstatus"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="ul">
+        <div class="desk-slide">Ремонтируемые бренды</div>
+        <div>Ремонтируемые устройства</div>
+        <div>Дополнительные услуги</div>
+        <div>Цены на услуги</div>
+        <div>Адреса сервисных центров</div>
+        <div>Специальные цены</div>
+      </div>
+      <h3>Отзывы</h3>
+      <div class="foto">
+        <div class="text">
+          <p class="a">
+            Мы являемся авторизированным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя.
+          </p>
+
+          <span class="b__1">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера
+          </span>
+          <p class="b">
+            что подтверждает большое количество постоянных клиентов. Мы гордимся
+            тем, что к нам обращаются по рекомендациям и, в свою очередь,
+            советуют нас родным и близким.
+          </p>
+          <p class="c">
+            <img src="./images/expand.svg" alt="expand" />
+            Читать далее
+          </p>
+        </div>
+        <img src="./images/_MG_3223.svg" alt="foto" />
+      </div>
+    </div>
+    <h2>РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2>
+    <div class="brands mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/cat1.svg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/cat1 copy.svg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/cat1 copy 2.svg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/cat1 copy 3.svg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/cat1 copy 7.svg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/cat1 copy 8.svg" alt="" />
+        </div>
+        <div class="swiper-slide midle ">
+          <img src="images/cat1 copy 9.svg" alt="" />
+        </div>
+        <div class="swiper-slide midle">
+          <img src="images/cat1 copy 10.svg" alt="" />
+        </div>
+        <div class="swiper-slide midle large">
+          <img src="images/cat1.svg" alt="" />
+        </div>
+        <div class="swiper-slide midle large">
+          <img src="images/cat1 copy.svg" alt="" />
+        </div>
+        <div class="swiper-slide midle large">
+          <img src="images/cat1 copy 2.svg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="hide">
+      <img src="images/expand.svg" alt="" />
+      <p>Показать все</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="./src/js/script.js"></script> -->
   </body>
 </html>
