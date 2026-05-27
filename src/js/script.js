@@ -1,13 +1,13 @@
 import Swiper from 'swiper'
 import { Pagination } from 'swiper/modules'
 // import Swiper and modules styles
-// import 'swiper/css'
-// import 'swiper/css/pagination'
+import 'swiper/css'
+import 'swiper/css/pagination'
 
 document.addEventListener('DOMContentLoaded', function () {
   const btn = document.querySelector('.hide')
-  const brands = document.querySelector('.brands')
-  const text = btn.querySelector('p')
+  const brands = document.querySelector('.bran')
+  const text = btn.querySelector('.p')
   let swiper = null
 
   function initSwiper() {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
       swiper = new Swiper('.mySwiper', {
         slidesPerView: 1.2,
         spaceBetween: 10,
-        // modules: [Pagination],
+        modules: [Pagination],
         pagination: {
           el: '.swiper-pagination',
           clickable: true
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
       : 'Показать все'
   })
 
-  // initSwiper();
+  initSwiper();
   window.addEventListener('resize', initSwiper)
 })
 
