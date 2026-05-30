@@ -6,8 +6,8 @@ import 'swiper/css/pagination'
 
 document.addEventListener('DOMContentLoaded', function () {
   const btn = document.querySelector('.hide')
-  const brands = document.querySelector('.bran')
-  const text = btn.querySelector('.p')
+  const brands = document.querySelector('.brands')
+  const text = btn.querySelector('p')
   let swiper = null
 
   function initSwiper() {
